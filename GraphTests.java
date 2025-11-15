@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 /**
  * GraphTests.java
  * Alex Solano
@@ -296,5 +298,6 @@ public class GraphTests{
             assert minDistances.get(g) == 12.0 : "Error in Graph::distanceFrom()";
             assert minDistances.get(h) == 11.0 : "Error in Graph::distanceFrom()";
         }
+        System.out.println("*** Done testing Graph.java! ***");
     }
 }
